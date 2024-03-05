@@ -1,0 +1,36 @@
+Class - It is a virtual entity or we can say it is a category. It doesn't hold any memory
+
+Object - It is a real world entity. It hold memoryI
+
+Constructor - It is a special type of function which doesn't has any return type. It has two type parameter and parameterless.
+Why we create private constructor- because we can't make object after making private constructor so that we can restrict user to create its object for security purpose.
+
+static keyword - we can access variable with static anywhere in program.
+
+Access Modifier - Private(Class), Public(Class, subclass, global and Package), Default(Class and Package) and Protected(Class, subclass and Package)
+
+
+Encapsulation - Wrapping of data in a single in a single unit. Data Hiding. We use it for security purpose. We use Access Modifier to restrict the access and use Getters and setters to give access.
+
+Abstraction - Implementation Hiding. Eg we have implementation code of android i.e. there are nos. of android device but we don't know implementation of iphone. Abstration is the process where we hide the implementation details.
+We achieve abstraction using abstract and implement keyword. Interface is the actual blueprint. we can make lots of object of class. Interface has all the declaration part.
+How we can achieve abstraction? we can achieve abstraction with with abstract and Interface but we can achieve 100% abstraction using interface.
+
+Abstract class may or may not have abstract methods. i.e. we can make normal methods as well as abstract methods in abstract class. Abstract is extended using extends keyword
+Abstract->extends
+Abstract method can not have body.
+
+Interface class will not have any normal method and all method will be automatically abstract method only and with no body. Interface will have only declaration of method. and actual method will be implemented in other class that implements interface class
+
+WE CAN NOT MAKE OBJECT OF BOTH ABSTRACT AND INTERFACE CLASS.
+
+Inheritance - one class is allowed to inherit the features(fields and methods) of another class. We use extends Keyword to inherited.
+
+Single level inheritance - subclasses inherit the features of one superclass.
+Multilevel inheritance - a derived class will be inheriting a base class, and as well as the derived class also acts as the base class for other classes
+Multiple inheritance - one class can have more than one superclass and inherit features from all parent classes. Please note that Java does not support multiple inheritances with classes. In Java, we can achieve multiple inheritances only through Interfaces.
+Hierarchical inheritance - one class serves as a superclass (base class) for more than one subclass
+
+Polymorphism - same name different forms/works
+
+overloading - name same work different. It is written in same class. name is same but parameters should be different. No of parameter shold be also different or return type should be different
