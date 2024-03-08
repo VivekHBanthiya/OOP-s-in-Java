@@ -1,36 +1,51 @@
-Class - It is a virtual entity or we can say it is a category. It doesn't hold any memory
+•	Class - It is a virtual entity or we can say it is a category. It doesn't hold any memory
 
-Object - It is a real world entity. It hold memoryI
+•	Object - It is a real-world entity. It holds memory
 
-Constructor - It is a special type of function which doesn't has any return type. It has two type parameter and parameterless.
+•	Constructor - It is a special type of function which doesn't has any return type. It has two type parameter and parameter less.
 Why we create private constructor- because we can't make object after making private constructor so that we can restrict user to create its object for security purpose.
 
 static keyword - we can access variable with static anywhere in program.
 
-Access Modifier - Private(Class), Public(Class, subclass, global and Package), Default(Class and Package) and Protected(Class, subclass and Package)
+•	Access Modifier - Private (Class), Public (Class, subclass, global and Package), Default (Class and Package) and Protected(Class, subclass and Package)
 
+Public – anywhere in projects
+Private – same class
+Default – same class and package
+Protected – same class, same package, different package but in sub-class i.e. it should extends the protected class
 
-Encapsulation - Wrapping of data in a single in a single unit. Data Hiding. We use it for security purpose. We use Access Modifier to restrict the access and use Getters and setters to give access.
+•	Package – package is collection of classes. We use packages to distinguish class according to categories. We cannot access class from another packages to do so we need to import those package. Whatever class we use in java are a part of any package e.g. System belongs to java.lang package.
 
-Abstraction - Implementation Hiding. Eg we have implementation code of android i.e. there are nos. of android device but we don't know implementation of iphone. Abstration is the process where we hide the implementation details.
+MVN Repository (https://mvnrepository.com/) :- we can find libraries for our projects
+
+•	 Encapsulation - Wrapping of data in a single in a single unit. Data Hiding. We use it for security purpose. We use Access Modifier to restrict the access and use Getters and setters to give access.
+
+•	 Abstraction - Implementation Hiding. Eg we have implementation code of android i.e. there are nos. of android device but we don't know implementation of iPhone. Abstraction is the process where we hide the implementation details.
+
 We achieve abstraction using abstract and implement keyword. Interface is the actual blueprint. we can make lots of object of class. Interface has all the declaration part.
-How we can achieve abstraction? we can achieve abstraction with with abstract and Interface but we can achieve 100% abstraction using interface.
+How we can achieve abstraction? we can achieve abstraction with abstract and Interface but we can achieve 100% abstraction using interface.
 
 Abstract class may or may not have abstract methods. i.e. we can make normal methods as well as abstract methods in abstract class. Abstract is extended using extends keyword
 Abstract->extends
-Abstract method can not have body.
+Abstract method cannot have body.
 
 Interface class will not have any normal method and all method will be automatically abstract method only and with no body. Interface will have only declaration of method. and actual method will be implemented in other class that implements interface class
 
 WE CAN NOT MAKE OBJECT OF BOTH ABSTRACT AND INTERFACE CLASS.
 
-Inheritance - one class is allowed to inherit the features(fields and methods) of another class. We use extends Keyword to inherited.
+•	Inheritance - one class is allowed to inherit the features(fields and methods) of another class. We use extends Keyword to inherited. class that extends other class it will get all properties(methods) of parent class. for e.g. in your coding advCal extended simpCal
 
 Single level inheritance - subclasses inherit the features of one superclass.
 Multilevel inheritance - a derived class will be inheriting a base class, and as well as the derived class also acts as the base class for other classes
-Multiple inheritance - one class can have more than one superclass and inherit features from all parent classes. Please note that Java does not support multiple inheritances with classes. In Java, we can achieve multiple inheritances only through Interfaces.
+Multiple inheritance - one class can have more than one superclass and inherit features from all parent classes. Please note that Java does not support multiple inheritances with classes. Suppose if class C has two parents A and B and both have one common method y() so we C requires y() then from which parent it will ask from A or B so here C will gets confuse i.e Multiple inheritance not supported in java.  In Java, we can achieve multiple inheritances only through Interfaces.
 Hierarchical inheritance - one class serves as a superclass (base class) for more than one subclass
 
-Polymorphism - same name different forms/works
+•	Polymorphism - same name different forms/works. Like I am son at home, student at college.\
 
-overloading - name same work different. It is written in same class. name is same but parameters should be different. No of parameter shold be also different or return type should be different
+Two types of Polymorphism – Compile time and Runtime
+1.	Compile time/ Early binding: Behaviour is defined at compile time like method will do in compile time. Overloading is part of compile time. For e.g. we have two methods add(int a, int b) and add(int a, int b, int c) now which metho is use will be decided on compile time only
+2.	Runtime/ Late binding: Behaviour is defined at Runtime like method will do in Runtime. Overriding is a part of Runtime. For e.g. we have two classes A and B both have add(int a, int b) so which method to to be use will be decided on runtime.
+
+overloading - name same work different. It is written in same class. name is same but parameters should be different. No. of parameter should be different or return type should be different.
+overriding - name, return type, no. of parameter same but the body or definition gets change in overriding. we do this in different class.
+
