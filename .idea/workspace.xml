@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fde49af-5d5b-41ee-8d33-da77954c38b5" name="Changes" comment="Second">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstraction/Bank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstraction/Bankiml.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstraction/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encapsulation/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encapsulation/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/AdvCal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/Grandfather.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/SciCal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/SimpCal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polymorphism/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polymorphism/Overloading.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polymorphism/Overriding.java" beforeDir="false" />
+    <list default="true" id="5fde49af-5d5b-41ee-8d33-da77954c38b5" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/src/InnerClass/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +29,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/JAVA/Object Oriented Programming in Java/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "onboarding.tips.debug.path": "E:/JAVA/Object Oriented Programming in Java/src/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Inheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inheritance.Main" />
@@ -151,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709895010281</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor">
+      <created>1710095130439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710095130439</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor">
+      <created>1710095246331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710095246331</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="Second" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
 </project>
