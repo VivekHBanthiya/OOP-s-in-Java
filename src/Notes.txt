@@ -5,7 +5,7 @@
 •	Constructor - It is a special type of function which doesn't has any return type. It has two type parameter and parameter less.
 Why we create private constructor- because we can't make object after making private constructor so that we can restrict user to create its object for security purpose.
 
-static keyword - we can access variable with static anywhere in program.
+static keyword - we can access variable with static anywhere in program. we don't have to create object of static class
 
 •	Access Modifier - Private (Class), Public (Class, subclass, global and Package), Default (Class and Package) and Protected(Class, subclass and Package)
 
